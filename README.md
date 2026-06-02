@@ -1,0 +1,28 @@
+# YouSeeIt
+
+A VS Code extension that learns from your team's bugs and warns you before you repeat them.
+
+## Features
+
+- Red underline on lines matching known bug patterns
+- Hover tooltip showing bug title, description, fixer, and confidence score
+- Sidebar panel with full bug document
+- "Log This Bug" form to teach the system new bugs
+- AI-powered similarity search using sentence-transformers
+
+## How It Works
+
+1. Senior developer fixes a bug and clicks "Log This Bug"
+2. The system learns the bug pattern using AI embeddings
+3. When any developer writes similar code, a red underline appears
+4. Hovering shows the bug details and a link to the full document
+
+## Requirements
+
+- Backend server running on http://127.0.0.1:8000
+- PostgreSQL database with bugs table
+
+## Extension Settings
+
+- Team token: `youseeit-dev-token`
+- Backend URL: `http://127.0.0.1:8000`

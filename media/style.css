@@ -1,0 +1,94 @@
+body {
+  font-family: var(--vscode-font-family);
+  font-size: var(--vscode-font-size);
+  color: var(--vscode-foreground);
+  background-color: var(--vscode-sideBar-background);
+  padding: 16px;
+  margin: 0;
+}
+
+h2 {
+  color: var(--vscode-textLink-foreground);
+  border-bottom: 1px solid var(--vscode-panel-border);
+  padding-bottom: 8px;
+}
+
+.bug-card {
+  background: var(--vscode-font-family);
+  border: 1px solid var(--vscode-panel-border);
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.bug-card h3 {
+  margin: 0 0 8px 0;
+  color: var(--vscode-errorForeground);
+}
+
+.bug-field {
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.bug-field span {
+  font-weight: bold;
+  color: var(--vscode-textLink-foreground);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 8px 16px;
+  background: var(--vscode-button-background);
+  color: var(--vscode-button-foreground);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  width: 100%;
+}
+
+.btn:hover {
+  background: var(--vscode-button-hoverBackground);
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: var(--vscode-textLink-foreground);
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 6px 8px;
+  background: var(--vscode-input-background);
+  color: var(--vscode-input-foreground);
+  border: 1px solid var(--vscode-input-border);
+  border-radius: 4px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.hidden {
+  display: none;
+}
+
+.success-msg {
+  color: var(--vscode-testing-iconPassed);
+  font-weight: bold;
+  margin-top: 12px;
+}
