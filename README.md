@@ -1,6 +1,6 @@
-# YouSeeIt
+# Bug Pattern Detector
 
-A VS Code extension that learns from your team's bugs and warns you before you repeat them.
+A VS Code extension that allow AI to learn and doc bug pattern into log and warn the next SDE in future if that bug happens agian. SDE will have clear reference to solve. 
 
 ## Features
 
