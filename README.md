@@ -24,5 +24,6 @@ A VS Code extension that allow AI to learn and doc bug pattern into log and warn
 
 ## Extension Settings
 
-- Team token: `youseeit-dev-token`
+previously named as 'You See It'
+
 - Backend URL: `http://127.0.0.1:8000`
