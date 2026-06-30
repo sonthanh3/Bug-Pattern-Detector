@@ -1,4 +1,4 @@
-# Bug Pattern Detector
+# Bug Pattern Recall
 
 A VS Code extension that allow AI to learn and doc bug pattern into log and warn the next SDE in future if that bug happens agian. SDE will have clear reference to solve. 
 
